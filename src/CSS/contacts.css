@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #443742;
+    margin: 14px auto;
+
+  }
+  thead,
+  tbody {
+    display: flex;
+    justify-content: center;
+  }
+  thead {
+    border-top: 1px solid #555;
+    color: #bbb8b2;
+    width: 100%;
+  }
+  .first-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  th,
+  td {
+    text-align: left;
+    width: 33%;
+    padding: 12px;
+    border-bottom: 1px solid #555;
+  }
+  tbody,
+  .other-rows {
+    width: 100%;
+    color: #fff;
+  }
+  .contact-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  
